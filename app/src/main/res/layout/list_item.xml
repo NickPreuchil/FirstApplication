@@ -1,0 +1,31 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="85pt"
+    android:layout_height="100dp"
+    android:onClick="testbtnhandler"
+    android:paddingVertical="5dp"
+    android:paddingStart="20px">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/status_bar_item_background" />
+
+
+    <TextView
+        android:id="@+id/receiptname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Название"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginHorizontal="11pt"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

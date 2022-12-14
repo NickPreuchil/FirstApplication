@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="test">Hi there</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Список рецептов</string>
+    <string name="title_dashboard">Выбранный рецепт</string>
+    <string name="title_notifications">Избранные</string>
+    <string name="buttonText">Login</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="correctEmail">aaa@mail.ru</string>
+    <string name="correctPass">123</string>
+    <string name="kal_label">Калорийность:</string>
+    <string name="dif_label">Сложность:</string>
+    <string name="ing_label">Ингредиенты:</string>
+    <string name="tim_label">Время приготовления:</string>
+</resources>
